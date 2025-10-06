@@ -1,6 +1,6 @@
 /**
- * @author Luuxis
- * Luuxis License v1.0 (voir fichier LICENSE pour les détails en FR/EN)
+ * @author Darken
+ * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0
  */
 
 import { changePanel, accountSelect, database, Slider, config, setStatus, popup, appdata, setBackground } from '../utils.js'
@@ -18,7 +18,10 @@ class Settings {
         this.javaPath()
         this.resolution()
         this.launcher()
+
     }
+
+
 
     navBTN() {
         document.querySelector('.nav-box').addEventListener('click', e => {
