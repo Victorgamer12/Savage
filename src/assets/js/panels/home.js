@@ -6,7 +6,7 @@ import { config, database, logger, changePanel, appdata, setStatus, pkg, popup }
 
 const { Launch } = require('minecraft-java-core')
 const { shell, ipcRenderer } = require('electron')
-const { app, BrowserWindow, ipcMain } = require('electron');
+
 
 class Home {
     static id = "home";
@@ -280,6 +280,5 @@ class Home {
         return { year, month: allMonth[month - 1], day };
     }
 }
-
 
 export default Home;
